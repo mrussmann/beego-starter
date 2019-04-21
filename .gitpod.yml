@@ -1,0 +1,8 @@
+checkoutLocation: "go/beego-starter"
+workspaceLocation: "."
+ports:
+- port: 8080
+tasks:
+- init: go get github.com/astaxie/beego &&
+    go get github.com/beego/bee &&
+    curl https://glide.sh/get | sh
